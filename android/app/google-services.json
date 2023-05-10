@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "290396683885",
+    "project_id": "promptrub-52e73",
+    "storage_bucket": "promptrub-52e73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290396683885:android:255de5de13172bb44b8964",
+        "android_client_info": {
+          "package_name": "robotel.app.promptrub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290396683885-va7j5ep2hd3h4pnej82nap1gc3vv9v8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKOxSfFyWHI-IWXI24mSymrfHtjINkRRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290396683885-va7j5ep2hd3h4pnej82nap1gc3vv9v8v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,18 @@
+default_platform(:android)
+
+platform :android do
+  desc "Deploy DEV"
+  lane :dev do 
+    sh('cd ..')
+    sh('fvm flutter pub get')
+    sh('fvm flutter build apk --release --flavor dev')
+
+    firebase_app_distribution(
+      app: "1:599812284784:android:c8be714ad311b93659efb5",
+      groups: "FlutterStart",
+      apk_path: "../build/app/outputs/flutter-apk/app-dev-release.apk",
+      firebase_cli_token: "1//0gLJp48zmi3YhCgYIARAAGBASNwF-L9IrgcRr1eiUp55I4n40EKvvWHtyf7RTvHeDUBdxRhgLYCj446TKt7Fcq9QxRug3yUHLiak",
+      release_notes: ""
+    )
+  end
+end

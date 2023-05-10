@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "599812284784",
+    "project_id": "flutter-strat",
+    "storage_bucket": "flutter-strat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599812284784:android:c8be714ad311b93659efb5",
+        "android_client_info": {
+          "package_name": "com.example.hotel.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "599812284784-r174hveu7uve9k7vbvuccdlgfbs2tkkc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsY7JRmukZqAfg4TUvnx1vWxFsZhSbcGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "599812284784-r174hveu7uve9k7vbvuccdlgfbs2tkkc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

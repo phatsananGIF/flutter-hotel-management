@@ -1,0 +1,13 @@
+targets:
+  $default:
+    builders:
+      fast_i18n:
+        options:
+          base_locale: th
+          input_directory: assets/i18n
+          input_file_pattern: .i18n.json
+          output_file_pattern: .g.dart
+          output_directory: lib/core/i18n
+          output_file_name: translations.g.dart
+          namespaces: true
+          translate_var: AppLocalizations
